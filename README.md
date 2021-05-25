@@ -4,6 +4,6 @@
 Intro to im
 
 
-here is a paragraph
-
 this a new para
+
+this is **bold
