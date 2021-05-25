@@ -6,4 +6,6 @@ Intro to im
 
 this a new para
 
-this is **bold
+this is **bold**
+
+Here is an image ![](link)
