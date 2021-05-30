@@ -12,7 +12,7 @@ void draw () {
       ellipse(x, y, circleSize, circleSize); // draw circle at each x,y position
 ````
   
-The above screenshot was taken when the 'noLoop' part of the draw function wasn't active.
+The above screenshot was taken when the 'noLoop' part of the draw function wasn't integrated.
 
 The below video is without the 'noLoop' allowing the draw function to run continuously.
   
