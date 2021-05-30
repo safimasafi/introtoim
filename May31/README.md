@@ -4,21 +4,20 @@
 
 Here I screenshot my sample art where a grid of circles vary in size and colour value in which the number of circles are controlled with 'gridSize' and size/colour are randomised with the random function. 
 ````
-float circleSize = random(gridSize*0.3, gridSize); // set random circle size
+void draw () {
+  for (int x = gridSize; x < width; x += gridSize) { // first loop in x-direction
+    for (int y = gridSize; y < height; y += gridSize) { // second loop in y-direction
+      float circleSize = random(gridSize*0.3, gridSize); // set random circle size
       fill(random(255)); // set random blakish value
+      ellipse(x, y, circleSize, circleSize); // draw circle at each x,y position
 ````
   
-This screenshot was taken when the 'noLoop' function wasn't active.
+The above screenshot was taken when the 'noLoop' part of the draw function wasn't active.
+
+The below video is without the 'noLoop' allowing the draw function to run continuously.
   
+<
 
-  
-
-
-
-
-The present script draws a grid of circles in varying sizes and gray-scale values. The number of circles can be controlled by adjusting the ‘gridSize’ variable. ‘noLoop’ will prevent the draw function from running over and over again. Of course in this case the draw function could also be neglected completely, yet for the sake of structuring the sketch it should remain. Turning ‘noLoop’ off will result in a flickering screen. Within the draw function two nested loops iterate in steps defined by ‘gridSize’ through the screen and draw circles at the respective locations.
-
-Upload code and one or more images
 
 Describe the overall concept of your game or artwork
 Include video
