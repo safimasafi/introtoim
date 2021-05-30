@@ -1,8 +1,23 @@
-//vertex loop
+//circles grid
 
-<img src= "https://github.com/safimasafi/introtoim/blob/main/May27/Screen%20Shot%202.png">
+<img src= "https://github.com/safimasafi/introtoim/blob/main/May31/pic1.png">
+
+Here I screenshot my sample art where a grid of circles vary in size and colour value in which the number of circles are controlled with 'gridSize' and size/colour are randomised with the random function. 
+<code>
+  
+This screenshot was taken when the 'noLoop' function wasn't active.
+  
+
+  
 
 
-It took me a while to get used to aligning shapes by their correct proportions along the axes. I started the assignment a day ago and the portrait looked more than an alien figure (nothing against aliens though, we come in peace!) and the lesson today made it more human-like. Perhaps the hardest part was figuring out the traingle allignment for the nose; after that, getting the mouth done was easier. It also took me a while to figure out that after writing a noStokre attribte, the line shape won't show up unless I change the stroke colour. I did enjoy playing around with the RGB colour selector a little.
-It would be cool to make a sketch that's responsive to a real-time cam portrait of myself!
 
+
+The present script draws a grid of circles in varying sizes and gray-scale values. The number of circles can be controlled by adjusting the ‘gridSize’ variable. ‘noLoop’ will prevent the draw function from running over and over again. Of course in this case the draw function could also be neglected completely, yet for the sake of structuring the sketch it should remain. Turning ‘noLoop’ off will result in a flickering screen. Within the draw function two nested loops iterate in steps defined by ‘gridSize’ through the screen and draw circles at the respective locations.
+
+Upload code and one or more images
+
+Describe the overall concept of your game or artwork
+Include video
+Describe any problems you ran into and how you resolved or worked around them
+Describe anything interesting or clever about your program
