@@ -3,7 +3,10 @@
 <img src= "https://github.com/safimasafi/introtoim/blob/main/May31/pic1.png">
 
 Here I screenshot my sample art where a grid of circles vary in size and colour value in which the number of circles are controlled with 'gridSize' and size/colour are randomised with the random function. 
-<code>
+````
+float circleSize = random(gridSize*0.3, gridSize); // set random circle size
+      fill(random(255)); // set random blakish value
+````
   
 This screenshot was taken when the 'noLoop' function wasn't active.
   
