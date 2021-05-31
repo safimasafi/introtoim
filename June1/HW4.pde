@@ -1,3 +1,7 @@
+//Safeya Alblooshi
+//Intro to IM
+//HW 4
+
 float r=0,s=280;
 //float r=0,s=0;
 
