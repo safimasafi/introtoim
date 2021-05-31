@@ -4,6 +4,7 @@ HW 4
 Here is a screenshot of the first generative 'art' for today's homework. I decided to experiment with the rotate and translate functions on a rect shape. 
 <<img src= "https://user-images.githubusercontent.com/70910372/120238859-22bdfe80-c26e-11eb-848c-78499d0f171c.mov">
 The code for the rectangle part:
+
 ````
 float r=0,s=280;
 
@@ -26,7 +27,6 @@ void draw () {
   //println("s="+s+", r="+r); //to determine float
 }
 ````
-
 
 
 
