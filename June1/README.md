@@ -27,10 +27,34 @@ void draw () {
   //println("s="+s+", r="+r); //to determine float
 }
 ````
+Seeing the circular patterns from the above video, I thought I would create a similar generative piece using an ellipse. 
+
+<img src= "https://github.com/safimasafi/introtoim/blob/main/June1/img2.png">
+<img src= "https://user-images.githubusercontent.com/70910372/120239226-d8894d00-c26e-11eb-949a-d7e9cdeef8b9.mov">
+Code for the ellipse part:
+````
+float r=0,s=0;
+
+void setup() {
+  size(700,700);
+  background(0);
+ }
+ 
+void draw () {
+  fill(random(255),random(255),random(255)); //colour for ellipse
+    if(s<10){
+   noStroke();
+  }
+  translate(width/2,height/2);
+  rotate(r);
+  ellipse(r,s+r,4,4);
+    r+=0.1;
+    s+=0.2;         
+  //println("s="+s+", r="+r); //to determine float
+}
+````
 
 
-
-Upload code and one or more images
 Describe the overall concept of your game or artwork
 Describe how you used classes
 Include the image(s) or link(s) to video
