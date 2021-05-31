@@ -32,6 +32,7 @@ Seeing the circular patterns from the above video, I thought I would create a si
 <img src= "https://github.com/safimasafi/introtoim/blob/main/June1/img2.png">
 <img src= "https://user-images.githubusercontent.com/70910372/120239226-d8894d00-c26e-11eb-949a-d7e9cdeef8b9.mov">
 Code for the ellipse part:
+
 ````
 float r=0,s=0;
 
