@@ -55,9 +55,9 @@ void draw () {
 }
 ````
 
-The println helped determine 
+The println helped determine the declared float variables 'r' and 's' with the respective values, as well as assign the value for the 'rect'.
+With this homework I mainly had to remember the importance of order of operations as I kept having blank screens showing up, or the rectangle/ellipse not doing what I wanted it to as I first rotated it then translated, which also produced some cool results, just not the desired ones, like this one here> <img src= "![Screen Shot 2021-06-01 at 00 38 58](https://user-images.githubusercontent.com/70910372/120240558-edb3ab00-c271-11eb-88f1-e58cda0b679d.png)">
 
 
-Describe how you used classes
-Describe any problems you ran into and how you resolved or worked around them
-Describe anything interesting or clever about your program
+And since I kept commenting out lines of code for the rectangle/ellipse, I got confused what I had to include or exclude. 
+It was, however, interesting to see that I didn't have to change much to go from a rectangular piece to a spiral one.
