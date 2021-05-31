@@ -2,6 +2,7 @@
 //Intro to IM
 //HW 4
 
+
 float r=0,s=280;
 //float r=0,s=0;
 
@@ -13,7 +14,7 @@ void setup() {
  }
  
 void draw () {
-  //fill(random(255),random(255),random(255));
+  //fill(random(255),random(255),random(255)); //colour for ellipse
     if(s<10){
    noStroke();
    noFill();
@@ -24,6 +25,5 @@ void draw () {
   //ellipse(r,s+r,4,4);
     r+=0.1;
     s-=0.2;         
-  //println("s="+s+", r="+r);
+  //println("s="+s+", r="+r); //to determine float
 }
-  
