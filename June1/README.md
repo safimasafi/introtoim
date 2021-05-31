@@ -55,9 +55,9 @@ void draw () {
 }
 ````
 
+The println helped determine 
 
-Describe the overall concept of your game or artwork
+
 Describe how you used classes
-Include the image(s) or link(s) to video
 Describe any problems you ran into and how you resolved or worked around them
 Describe anything interesting or clever about your program
