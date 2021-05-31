@@ -62,4 +62,5 @@ With this homework I mainly had to remember the importance of order of operation
 
 
 And since I kept commenting out lines of code for the rectangle/ellipse, I got confused what I had to include or exclude. 
+
 It was, however, interesting to see that I didn't have to change much to go from a rectangular piece to a spiral one.
