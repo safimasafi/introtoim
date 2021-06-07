@@ -1,4 +1,4 @@
-This homework was inspired by this Painting with [Pixels tutorial](https://www.youtube.com/watch?v=NbX3RnlAyGU), and my longing to return to Berlin and its vibrant club scene, dark skies, and rainy nights.
+This homework was inspired by this [Painting with Pixels tutorial](https://www.youtube.com/watch?v=NbX3RnlAyGU), and my longing to return to Berlin and its vibrant club scene, dark skies, and rainy nights.
 
 <img src= "https://github.com/safimasafi/introtoim/blob/main/June7/1.1.png">
 
