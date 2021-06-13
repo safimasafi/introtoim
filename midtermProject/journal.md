@@ -92,4 +92,26 @@ void mousePressed() {
 ````
 <img src ="https://user-images.githubusercontent.com/70910372/121816828-e12a4c00-cc8e-11eb-80ae-d2b279aa4448.png">
 
-**June 12**:
+**June 12**:Spent a lot of time doing an ‘instructions’ screen mainly because I didn’t consider order of operations in Processing. 
+
+
+I began writing a function (preload()) where I thought I can dump everything that will occur before the actual game begins (loadSound, insert image, etc) but I saw that nothing really worked the way I expected. I concentrated on getting an image and the ‘intro’ screen working first and foremost. After moving around parts of code all around the sketch, I decided to change what was initially void draw to void game and create a void introScreen with all the code that had instructions for the game + pointed out that one must ‘click to begin.’  I then wrote out the new draw function. At first, nothing from the introScreen function showed up when I ran the sketch but then I moved the draw function below the introScreen function and it worked. 
+````
+void introScreen() {
+    background(245,220,230);
+    textSize(12);
+    text("Click anywhere to begin! \nUse the mouse to avoid incoming circles and re-click to re-start.", 10, 50);
+    noStroke();
+    fill(200, 0, 0);
+}
+void draw() {
+  if (screen == 0) { 
+    introScreen(); 
+  } else if (screen == 1) { //click to start game
+    game();
+  }
+}
+````
+I then added an image to the ‘intro page’  - a screenshot of the actual game.
+
+**June 13**:
