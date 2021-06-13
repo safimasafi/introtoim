@@ -7,7 +7,7 @@ Dot Game
 14/07/2021
 
 #code
-[#instructions](https://github.com/safimasafi/introtoim/blob/main/midtermProject/journal.md#instructions)
+[#instructions-for-readme](https://github.com/safimasafi/introtoim/blob/main/midtermProject/journal.md#instructions)
 
 
 **June 7**: I pretty much spent the whole day looking through almost every example in the Minim library and playing around with them, ideally to *get inspiration*. I was impressed at the range of synthesis examples in the library and thought that my main idea could be a piano tiles sort of game, or a one and a half octave piano player with some effects knobs for basic synthesis implementation. At the same time, after some thinking, I realised that replicating piano sounds (C3-C4) on a virtual environment isn’t all that interesting and didn’t see the point of such replication.
@@ -101,7 +101,7 @@ void mousePressed() {
 ````
 <img src ="https://user-images.githubusercontent.com/70910372/121816828-e12a4c00-cc8e-11eb-80ae-d2b279aa4448.png">
 
-**[`June 12`](#instructions)**:Spent a lot of time doing an ‘instructions’ screen mainly because I didn’t consider order of operations in Processing. 
+**[`June 12`](#instructions-for-readme)**:Spent a lot of time doing an ‘instructions’ screen mainly because I didn’t consider order of operations in Processing. 
 I began writing a function (preload()) where I thought I can dump everything that will occur before the actual game begins (loadSound, insert image, etc) but I saw that nothing really worked the way I expected. I concentrated on getting an image and the ‘intro’ screen working first and foremost. After moving around parts of code all around the sketch, I decided to change what was initially void draw to void game and create a void introScreen with all the code that had instructions for the game + pointed out that one must ‘click to begin.’  I then wrote out the new draw function. At first, nothing from the introScreen function showed up when I ran the sketch but then I moved the draw function below the introScreen function and it worked. 
 ````
 void introScreen() {
