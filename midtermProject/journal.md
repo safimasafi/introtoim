@@ -93,8 +93,6 @@ void mousePressed() {
 <img src ="https://user-images.githubusercontent.com/70910372/121816828-e12a4c00-cc8e-11eb-80ae-d2b279aa4448.png">
 
 **June 12**:Spent a lot of time doing an ‘instructions’ screen mainly because I didn’t consider order of operations in Processing. 
-
-
 I began writing a function (preload()) where I thought I can dump everything that will occur before the actual game begins (loadSound, insert image, etc) but I saw that nothing really worked the way I expected. I concentrated on getting an image and the ‘intro’ screen working first and foremost. After moving around parts of code all around the sketch, I decided to change what was initially void draw to void game and create a void introScreen with all the code that had instructions for the game + pointed out that one must ‘click to begin.’  I then wrote out the new draw function. At first, nothing from the introScreen function showed up when I ran the sketch but then I moved the draw function below the introScreen function and it worked. 
 ````
 void introScreen() {
@@ -114,4 +112,21 @@ void draw() {
 ````
 I then added an image to the ‘intro page’  - a screenshot of the actual game.
 
-**June 13**:
+**June 13**:The last thing I had to do was add sound to the game. I decided to have a track that I remixed for some live sound design to play in the background throughout the game. When I added the sound, the sketch took a long time to load an I guessed it was because the track was around 4 minutes long so I cut it to 1 minute and put it on a loop. I also decided to add a sound effect every time the game was over.  
+
+Worked on other minor changes: 
+- improved the intro text with instructions
+````
+text("DOT GAME \n \nClick anywhere to begin! \nUse mouse to move red circle and avoid black circles. \n \nClick to re-start.", 10, 50);
+````
+- fastened the speed of the black balls
+Speed before:
+x = x -2;
+x2 = x2 -1;
+x3 = x3 -3; 
+Speed now:
+x = x -2; 
+x2 = x2 -3;
+x3 = x3 -3;
+- added some comments in the sketch 
+- fixed a bug that made the canvas blank after game was over
