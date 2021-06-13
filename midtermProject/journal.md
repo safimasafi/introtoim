@@ -24,6 +24,7 @@ The first two things I had to think through was how to visually display the ball
 <h4 id="June-11">
 June 11
 </h4>: Started writing proper code that will be the foundation of the game; the moving balls and the main ball. Divided the sketch into sections; the circles, if game is over, if game isn’t over. The intention was to have the black balls hit the red ball and not move through it but it didn’t seem to work until I realised one line of my code was faulty; I needed to change the Boolean value to true instead of false.
+
 ````
 float x = 450;
 float y = random(0, 450);
@@ -86,6 +87,7 @@ void draw() {
   }
 }
 ````
+
 **June 12**: Worked on getting the mousePressed() function working to reset the game after it ends, and adding a simple text saying ‘GAME OVER’.
 ````
 void mousePressed() { 
