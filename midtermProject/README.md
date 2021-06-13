@@ -22,7 +22,7 @@ The first problem I ran into was having the black circles go over the red instea
 Image 1 is the black circle going over the red and image 2 is with the correct code, where the black circle hits the red and stops.
 
 I then had to make sure that balls stopped moving when it displayed the text ‘game over’ (when a black ball would hit the red).
-<img src = "https://user-images.githubusercontent.com/70910372/121818451-4a628d00-cc98-11eb-8f03-c1eed5ff99d9.mov"> 
+<img src = "https://user-images.githubusercontent.com/70910372/121818451-4a628d00-cc98-11eb-8f03-c1eed5ff99d9.mov">
                                                                                                                   
 Another problem I ran into was trying to get the an ‘instructions’ screen to show up before the actual game started. That was mainly due to an error in the order of my code placement [more details in the journal](https://github.com/safimasafi/introtoim/blob/main/midtermProject/journal.md#instructions).  I decided to keep the background of the game neutral with the pale-reddish colour instead of adding an image that would act as a backdrop. The only way I thought of implementing an image was taking a screenshot of the actual game and including it in the ‘intro’ screen. I thought it’s nice that it doesn’t look like an image as the background colour is the same as on the image.
 
