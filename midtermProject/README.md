@@ -13,7 +13,7 @@ After changing my initial idea, I went with the Dot Game idea where a circle has
 
 The instructions is that one clicks anywhere on the canvas and uses the mouse to control the red circle to avoid the black circles. If the balls collide, one clicks again to restart.
 
-My first sketch consisted of functions that defined the circles, their movement, and if the game was over or not [code provided in the journal](https://github.com/safimasafi/introtoim/blob/main/midtermProject/journal.md#June-12)
+My first sketch consisted of functions that defined the circles, their movement, and if the game was over or not [code provided in the journal](https://github.com/safimasafi/introtoim/blob/main/midtermProject/journal.md#June-11)
 The first problem I ran into was having the black circles go over the red instead of stopping when it ‘hit’ it. I thought there was a problem with the way I coded the game to restart but that was easily fixed by changing one of the Boolean values.
 
 <img src = "https://user-images.githubusercontent.com/70910372/121818426-2d2dbe80-cc98-11eb-8eed-367d100d31d3.png">
