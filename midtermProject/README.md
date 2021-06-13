@@ -29,3 +29,6 @@ Another problem I ran into was trying to get the an ‘instructions’ screen to
 
 The first image is the ‘instructions/intro’ screen when I first worked on it, and the second is a screenshot of the final result.                                                                                                               
 
+As for the sound part, I added a track that plays on a loop throughout the game (more details in the journal). I used the [SoundFile reference page](https://processing.org/reference/libraries/sound/SoundFile.html) to implement the track as I wasn’t able to get it to load the first time round. I also used [this borrowed sound effect](https://www.storyblocks.com/audio/stock/incorrect-negative-alert-2-sytw_zmirvlk8umgv6m.html) that plays every time the circles hit/game is over. I chose the main track because I thought the motif sounded somewhat game-like and fit the game.
+
+I wanted to add a score count for every ball that went past the red or for every few seconds that passed but ended up not doing so, perhaps that’s something to think about going further. 
