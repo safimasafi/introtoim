@@ -12,6 +12,7 @@ I thought I could instead have an audio map with sound/field recordings, or crea
 
 The first two things I had to think through was how to visually display the balls and the direction of movement. From the diagram above, I decided that the balls will be moving horizontally towards the main circle, and the main circle will have to avoid getting in contact with them by being moved by the mouse or arrow keys along the y axis. 
 
+[`June 11`](#code)
 **June 11**: Started writing proper code that will be the foundation of the game; the moving balls and the main ball. Divided the sketch into sections; the circles, if game is over, if game isn’t over. The intention was to have the black balls hit the red ball and not move through it but it didn’t seem to work until I realised one line of my code was faulty; I needed to change the Boolean value to true instead of false.
 ````
 float x = 450;
