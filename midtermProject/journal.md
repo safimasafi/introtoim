@@ -1,4 +1,10 @@
-"Start with a preliminary description of what you intend for your project, followed by a journal of your progress. Each day add the date and then describe the work you plan to do or did that day. Include you thoughts, decisions, experiments, etc. Discuss what worked and what didn't. At the end of each journal entry, describe whether, and if so, how, the results of today's work has caused you to modify your plan for your midterm project. As always, pictures, hand drawn sketches, pieces of code, etc. can all be used to make your journal interesting and informative."
+Saf
+
+Mid-Term
+
+Dot Game
+
+14/07/2021
 
 
 **June 7**: I pretty much spent the whole day looking through almost every example in the Minim library and playing around with them, ideally to *get inspiration*. I was impressed at the range of synthesis examples in the library and thought that my main idea could be a piano tiles sort of game, or a one and a half octave piano player with some effects knobs for basic synthesis implementation. At the same time, after some thinking, I realised that replicating piano sounds (C3-C4) on a virtual environment isn’t all that interesting and didn’t see the point of such replication.
@@ -12,8 +18,7 @@ I thought I could instead have an audio map with sound/field recordings, or crea
 
 The first two things I had to think through was how to visually display the balls and the direction of movement. From the diagram above, I decided that the balls will be moving horizontally towards the main circle, and the main circle will have to avoid getting in contact with them by being moved by the mouse or arrow keys along the y axis. 
 
-[`June 11`](#code)
-**June 11**: Started writing proper code that will be the foundation of the game; the moving balls and the main ball. Divided the sketch into sections; the circles, if game is over, if game isn’t over. The intention was to have the black balls hit the red ball and not move through it but it didn’t seem to work until I realised one line of my code was faulty; I needed to change the Boolean value to true instead of false.
+**[`June 11`](#code)**: Started writing proper code that will be the foundation of the game; the moving balls and the main ball. Divided the sketch into sections; the circles, if game is over, if game isn’t over. The intention was to have the black balls hit the red ball and not move through it but it didn’t seem to work until I realised one line of my code was faulty; I needed to change the Boolean value to true instead of false.
 ````
 float x = 450;
 float y = random(0, 450);
@@ -93,7 +98,7 @@ void mousePressed() {
 ````
 <img src ="https://user-images.githubusercontent.com/70910372/121816828-e12a4c00-cc8e-11eb-80ae-d2b279aa4448.png">
 
-**June 12**:Spent a lot of time doing an ‘instructions’ screen mainly because I didn’t consider order of operations in Processing. 
+**[`June 12`](#instructions)**:Spent a lot of time doing an ‘instructions’ screen mainly because I didn’t consider order of operations in Processing. 
 I began writing a function (preload()) where I thought I can dump everything that will occur before the actual game begins (loadSound, insert image, etc) but I saw that nothing really worked the way I expected. I concentrated on getting an image and the ‘intro’ screen working first and foremost. After moving around parts of code all around the sketch, I decided to change what was initially void draw to void game and create a void introScreen with all the code that had instructions for the game + pointed out that one must ‘click to begin.’  I then wrote out the new draw function. At first, nothing from the introScreen function showed up when I ran the sketch but then I moved the draw function below the introScreen function and it worked. 
 ````
 void introScreen() {
