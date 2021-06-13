@@ -6,8 +6,7 @@ Dot Game
 
 14/07/2021
 
-#code
-[#instructions-for-readme](https://github.com/safimasafi/introtoim/blob/main/midtermProject/journal.md#instructions)
+[code-for-readme](#June-11)
 [instructions-for-readme](#June-12)
 
 
@@ -22,7 +21,9 @@ I thought I could instead have an audio map with sound/field recordings, or crea
 
 The first two things I had to think through was how to visually display the balls and the direction of movement. From the diagram above, I decided that the balls will be moving horizontally towards the main circle, and the main circle will have to avoid getting in contact with them by being moved by the mouse or arrow keys along the y axis. 
 
-**[`June 11`](#code)**: Started writing proper code that will be the foundation of the game; the moving balls and the main ball. Divided the sketch into sections; the circles, if game is over, if game isn’t over. The intention was to have the black balls hit the red ball and not move through it but it didn’t seem to work until I realised one line of my code was faulty; I needed to change the Boolean value to true instead of false.
+<h4 id="June-11">
+June 11
+</h4>: Started writing proper code that will be the foundation of the game; the moving balls and the main ball. Divided the sketch into sections; the circles, if game is over, if game isn’t over. The intention was to have the black balls hit the red ball and not move through it but it didn’t seem to work until I realised one line of my code was faulty; I needed to change the Boolean value to true instead of false.
 ````
 float x = 450;
 float y = random(0, 450);
@@ -104,8 +105,7 @@ void mousePressed() {
 
 <h4 id="June-12">
 June 12
-</h4>
-**[`June 12`](#instructions-for-readme)**:Spent a lot of time doing an ‘instructions’ screen mainly because I didn’t consider order of operations in Processing. 
+</h4>Spent a lot of time doing an ‘instructions’ screen mainly because I didn’t consider order of operations in Processing. 
 I began writing a function (preload()) where I thought I can dump everything that will occur before the actual game begins (loadSound, insert image, etc) but I saw that nothing really worked the way I expected. I concentrated on getting an image and the ‘intro’ screen working first and foremost. After moving around parts of code all around the sketch, I decided to change what was initially void draw to void game and create a void introScreen with all the code that had instructions for the game + pointed out that one must ‘click to begin.’  I then wrote out the new draw function. At first, nothing from the introScreen function showed up when I ran the sketch but then I moved the draw function below the introScreen function and it worked. 
 ````
 void introScreen() {
