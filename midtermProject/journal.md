@@ -6,6 +6,9 @@ Dot Game
 
 14/07/2021
 
+#code
+[#instructions](https://github.com/safimasafi/introtoim/blob/main/midtermProject/journal.md#instructions)
+
 
 **June 7**: I pretty much spent the whole day looking through almost every example in the Minim library and playing around with them, ideally to *get inspiration*. I was impressed at the range of synthesis examples in the library and thought that my main idea could be a piano tiles sort of game, or a one and a half octave piano player with some effects knobs for basic synthesis implementation. At the same time, after some thinking, I realised that replicating piano sounds (C3-C4) on a virtual environment isn’t all that interesting and didn’t see the point of such replication.
 I thought I could instead have an audio map with sound/field recordings, or create a player that would take sound files and play them at random, to create a ‘composition’ that would be represented visually, like a sound palette.
