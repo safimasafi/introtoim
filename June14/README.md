@@ -6,7 +6,9 @@ HW 7 - 3 buttons/LED's
 
 I blew one of the LED’s (RIP) due to a misconnected wire as the 330 resistor and long end of the LED was connected to the same row as its dedicated switch. Once I figured that out, I reapplied why one of the LED’s wasn’t working (and why I smelt some interesting smell coming out of the breadboard). 
 
-Below is a pic of the schematic: <img src= “   “>
+Below is a pic of the schematic: 
+
+<img src= "https://user-images.githubusercontent.com/70910372/121848606-5469a780-ccfb-11eb-80b9-aae98b328289.png">
 
 And an image of the breadboard: <img src= "https://user-images.githubusercontent.com/70910372/121824285-113c1400-ccbc-11eb-9298-02625763622d.png">
 
