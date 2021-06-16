@@ -8,6 +8,9 @@ int LEDs = random(5,8);      //picks random number between 5-8 (even though 8 do
 ````
 Schematic:
 
-Pic: 
+Picture: <img src = "https://user-images.githubusercontent.com/70910372/122308945-71ca8b80-cf1e-11eb-9eb3-53f0637e4311.JPG">
 
-Video:
+
+Video: <img src = "https://user-images.githubusercontent.com/70910372/122309625-ab4fc680-cf1f-11eb-832f-610cc270727f.mp4">
+
+
