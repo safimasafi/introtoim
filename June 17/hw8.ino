@@ -1,7 +1,7 @@
 /*
  * Saf
  * 17/06/2021
- * HW 8 - analog + digital sensor + 2 LEDs
+ * HW 8 - analog + digital sensor + 5 LEDs
  * V. 4
  */
  
