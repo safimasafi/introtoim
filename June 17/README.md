@@ -6,7 +6,8 @@ Perhaps this homework was one that kept me going in circles, commenting out code
 ````
 int LEDs = random(5,8);      //picks random number between 5-8 (even though 8 doesn't have any pins connected)
 ````
-Schematic:
+Schematic: <img src = "https://user-images.githubusercontent.com/70910372/122345564-0d78ed80-cf59-11eb-9e40-52388527a7fc.png">
+
 
 Picture: <img src = "https://user-images.githubusercontent.com/70910372/122308945-71ca8b80-cf1e-11eb-9eb3-53f0637e4311.JPG">
 
