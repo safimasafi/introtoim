@@ -46,9 +46,22 @@ d2 = digitalRead(2);
 I also thought I had to comment out the first two lines of the Serial.print(s) because it might affect the float readings on Max but that wasn’t the case.
 Some problems I encountered was trying to configure and map the highest/lowest levels of readings coming in from the LDRs because of the low speed, when I adjust the blue pot (delay), the reading doesn’t catch at the same moment when the LED blinks, and when the speed it too fast, I couldn’t catch the numbers. I also forgot to off my desk lamp and had to re-adjust the numbers later. The readings from the LDR taped to the blue LED also weren’t stable during the monitoring process.
 
+<img src = "https://user-images.githubusercontent.com/70910372/122720958-2519e400-d281-11eb-8f3c-840646607943.png">
 
+Max patch 
+<img src = "https://user-images.githubusercontent.com/70910372/122721248-7b872280-d281-11eb-9858-1b98f2f451b5.png">
+
+Monitoring subpatch 
+<img src = "https://user-images.githubusercontent.com/70910372/122721422-b38e6580-d281-11eb-8950-8091de30a3e3.png">
+
+Scaling subpatch
+<img src = "https://user-images.githubusercontent.com/70910372/122721472-c1dc8180-d281-11eb-9624-4e4762f14e5a.png">
+
+Ableton mapping
+<img src = "(https://user-images.githubusercontent.com/70910372/122721564-e0db1380-d281-11eb-8430-83dae1b181d4.png">
 
 
 Link to videos:
 Video of the Arduino  - https://youtu.be/ASwvPK11SyQ
+
 Screen recording with screen audio of Albeton running during the second video - https://youtu.be/i7WLha-Yauw
