@@ -72,3 +72,6 @@ Link to videos:
 Video of the Arduino  - https://youtu.be/ASwvPK11SyQ
 
 Screen recording with screen audio of Albeton running during the second video - https://youtu.be/i7WLha-Yauw
+
+Schematic:
+<img src = "https://user-images.githubusercontent.com/70910372/122752371-ecd6cd80-d2a1-11eb-970c-4111cddb62e5.png">
