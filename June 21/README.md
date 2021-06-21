@@ -1,6 +1,7 @@
-
-
-
+Saf
+21/06/2021
+HW 9 - instrument using 2 analog + 1 digital sensor(s)
+V. 5
 
 For this assignment, I built off the sketch from my last homework. I liked the randomization of the blinking LED’s that changed the sound of the audio clip and that’s why I decided to continue off the previous homework. There are 2 LEDs whose speed is regulated by the blue pot, 2 photoresistors that are attached to the LED covered in tape (I also used a pink folded Post-it paper to separate the light coming through the white tape), a button and another pot. 
 The idea is that the sketch reads the Serialprintln of the both the red/blue LDRs and that information is sent to Max MSP. I filter the photoresistors using a low-pass filter, then monitor them for scaling purposes. The mapping patch takes the serial ins from the Arduino readings and scaled it depending on the average brightness as the high input value and maximum level of darkness as the input low value. 
@@ -58,6 +59,7 @@ Scaling subpatch
 <img src = "https://user-images.githubusercontent.com/70910372/122721472-c1dc8180-d281-11eb-9624-4e4762f14e5a.png">
 
 Ableton mapping
+
 <img src = "https://user-images.githubusercontent.com/70910372/122721564-e0db1380-d281-11eb-8430-83dae1b181d4.png">
 
 
