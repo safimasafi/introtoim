@@ -2,7 +2,7 @@
 
 
 
-For this assignment, I built off the sketch from my last homework. There are 2 LEDs whose speed is regulated by the blue pot, 2 photoresistors that are attached to the LED covered in tape (I also used a pink folded Post-it paper to separate the light coming through the white tape), a button and another pot. 
+For this assignment, I built off the sketch from my last homework. I liked the randomization of the blinking LED’s that changed the sound of the audio clip and that’s why I decided to continue off the previous homework. There are 2 LEDs whose speed is regulated by the blue pot, 2 photoresistors that are attached to the LED covered in tape (I also used a pink folded Post-it paper to separate the light coming through the white tape), a button and another pot. 
 The idea is that the sketch reads the Serialprintln of the both the red/blue LDRs and that information is sent to Max MSP. I filter the photoresistors using a low-pass filter, then monitor them for scaling purposes. The mapping patch takes the serial ins from the Arduino readings and scaled it depending on the average brightness as the high input value and maximum level of darkness as the input low value. 
 Using the dial objects, I map them to Ableton and use ctlout to transmit MIDI messages to various effects on Ableton Live.
 
@@ -26,7 +26,7 @@ a1 = analogRead(1);
   Serial.print(a2);
   Serial.println();
 ````
-And so on… I had problems integrating the button by trying to use the same method and thought of giving up on having some sort of digital control but I realised the problem was in the way I wrote my code. From this:
+And so on… I had problems integrating the switch by trying to use the same method and thought of giving up on having some sort of digital control but I realised the problem was in the way I wrote my code. From this:
 ````
  //button = digitalRead(2);
   //Serial.print("button");
@@ -43,5 +43,12 @@ d2 = digitalRead(2);
   Serial.print(d2);
   Serial.println(buttonState);
 ````
+I also thought I had to comment out the first two lines of the Serial.print(s) because it might affect the float readings on Max but that wasn’t the case.
+Some problems I encountered was trying to configure and map the highest/lowest levels of readings coming in from the LDRs because of the low speed, when I adjust the blue pot (delay), the reading doesn’t catch at the same moment when the LED blinks, and when the speed it too fast, I couldn’t catch the numbers. I also forgot to off my desk lamp and had to re-adjust the numbers later. The readings from the LDR taped to the blue LED also weren’t stable during the monitoring process.
 
 
+
+
+Link to videos:
+Screen - https://youtu.be/i7WLha-Yauw
+Vif - https://youtu.be/ASwvPK11SyQ
