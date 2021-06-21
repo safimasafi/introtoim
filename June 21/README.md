@@ -58,7 +58,7 @@ Scaling subpatch
 <img src = "https://user-images.githubusercontent.com/70910372/122721472-c1dc8180-d281-11eb-9624-4e4762f14e5a.png">
 
 Ableton mapping
-<img src = "(https://user-images.githubusercontent.com/70910372/122721564-e0db1380-d281-11eb-8430-83dae1b181d4.png">
+<img src = "https://user-images.githubusercontent.com/70910372/122721564-e0db1380-d281-11eb-8430-83dae1b181d4.png">
 
 
 Link to videos:
