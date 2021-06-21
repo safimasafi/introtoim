@@ -1,6 +1,9 @@
 Saf
+
 21/06/2021
+
 HW 9 - instrument using 2 analog + 1 digital sensor(s)
+
 V. 5
 
 For this assignment, I built off the sketch from my last homework. I liked the randomization of the blinking LED’s that changed the sound of the audio clip and that’s why I decided to continue off the previous homework. There are 2 LEDs whose speed is regulated by the blue pot, 2 photoresistors that are attached to the LED covered in tape (I also used a pink folded Post-it paper to separate the light coming through the white tape), a button and another pot. 
