@@ -50,5 +50,5 @@ Some problems I encountered was trying to configure and map the highest/lowest l
 
 
 Link to videos:
-Screen - https://youtu.be/i7WLha-Yauw
-Vif - https://youtu.be/ASwvPK11SyQ
+Video of the Arduino  - https://youtu.be/ASwvPK11SyQ
+Screen recording with screen audio of Albeton running during the second video - https://youtu.be/i7WLha-Yauw
