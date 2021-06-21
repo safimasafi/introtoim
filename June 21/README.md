@@ -50,6 +50,8 @@ d2 = digitalRead(2);
 I also thought I had to comment out the first two lines of the Serial.print(s) because it might affect the float readings on Max but that wasn’t the case.
 Some problems I encountered was trying to configure and map the highest/lowest levels of readings coming in from the LDRs because of the low speed, when I adjust the blue pot (delay), the reading doesn’t catch at the same moment when the LED blinks, and when the speed it too fast, I couldn’t catch the numbers. I also forgot to off my desk lamp and had to re-adjust the numbers later. The readings from the LDR taped to the blue LED also weren’t stable during the monitoring process.
 
+Something I also took from today's assigned reading is that while the execution of my homework seemed to go ok, the actual circuit is slightly awkward to use as one hand is preoccupied holding the switch and the other controls the pots. It would’ve been nice if both hands were free to control the pots and the switch was programmed to on and stay on until the next push.
+
 <img src = "https://user-images.githubusercontent.com/70910372/122720958-2519e400-d281-11eb-8f3c-840646607943.png">
 
 Max patch 
