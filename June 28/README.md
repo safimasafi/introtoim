@@ -7,7 +7,8 @@ HW 10 - Communicating with Arduino and Processing
 V.1
 
 For this HW I built off the communication with Arduino from my mid-term game. 
-<img src = “   “ >
+<img src = "https://user-images.githubusercontent.com/70910372/123560898-42d1d680-d7b6-11eb-8891-2e5f8512888f.png">
+
 This time, instead of the red circle being controlled by the mouse, I let it be controlled by a potentiometer. 
 The main code that was added in Processing, aside from declaring the float, creating object from Serial class, and changing if statements on void gameover was: 
 ````
@@ -20,7 +21,7 @@ if (myPort.available() > 0) {
 I first put the code in void draw function but later realized it should go in void game function where the red ellipse was under. With the help of the [map reference page](https://processing.org/reference/map_.html), I was able to correctly map the ellipse to move at the target range of the canvas/game.
 
 Schematic
-<img src = “  “>
+<img src = "  ">
 
 Video
-<img src = “  “>
+<img src = "  ">
