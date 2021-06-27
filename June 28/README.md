@@ -21,7 +21,9 @@ if (myPort.available() > 0) {
 I first put the code in void draw function but later realized it should go in void game function where the red ellipse was under. With the help of the [map reference page](https://processing.org/reference/map_.html), I was able to correctly map the ellipse to move at the target range of the canvas/game.
 
 Schematic
-<img src = "  ">
+
+<img src = "https://user-images.githubusercontent.com/70910372/123561092-8f69e180-d7b7-11eb-9dd1-7bda05df94e2.png">
 
 Video
-<img src = "  ">
+
+<img src = "https://user-images.githubusercontent.com/70910372/123561414-38fda280-d7b9-11eb-9440-e0299086034b.mp4" width="500" height="700"/>
