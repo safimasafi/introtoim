@@ -99,6 +99,19 @@ if (CapSense8 > 100) {
 <img src = “  “>
 
 I also decided to experiment with how to play around with the touch points rather than just touching the nails. After trying guitar strings and copper wire, I was excited to finally put my unused conductive thread to use. YOUTUBE LINK!!!!!!!!
+
 The next step will be to add the third component from Arduino.
+
+**June 5**: For my third Arduino component, I added a push button that will only allow the sounds to be played when the put-on is pushed down, and stopped when released. Looking at some parts I had from my Circuits class, I picked a latching switch so I can easily tell if my project will be on/off. 
+````
+//Start/stop, if clicked, no instrument selected
+   if(PRInt[7] > 5 && PRInt[7] < 1000) {
+       counter = 0;
+   }
+````
+Final circuit
+
+<img src = “  “>
+
 
 
