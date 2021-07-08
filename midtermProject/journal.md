@@ -106,6 +106,7 @@ void mousePressed() {
 June 12
 </h4>Spent a lot of time doing an ‘instructions’ screen mainly because I didn’t consider order of operations in Processing. 
 I began writing a function (preload()) where I thought I can dump everything that will occur before the actual game begins (loadSound, insert image, etc) but I saw that nothing really worked the way I expected. I concentrated on getting an image and the ‘intro’ screen working first and foremost. After moving around parts of code all around the sketch, I decided to change what was initially void draw to void game and create a void introScreen with all the code that had instructions for the game + pointed out that one must ‘click to begin.’  I then wrote out the new draw function. At first, nothing from the introScreen function showed up when I ran the sketch but then I moved the draw function below the introScreen function and it worked. 
+
 ````
 void introScreen() {
     background(245,220,230);
@@ -122,6 +123,7 @@ void draw() {
   }
 }
 ````
+
 I then added an image to the ‘intro page’  - a screenshot of the actual game.
 
 **June 13**:The last thing I had to do was add sound to the game. I decided to have a track that I remixed for some live sound design to play in the background throughout the game. When I added the sound, the sketch took a long time to load an I guessed it was because the track was around 4 minutes long so I cut it to 1 minute and put it on a loop. I also decided to add a sound effect every time the game was over.  
