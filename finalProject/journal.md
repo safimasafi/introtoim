@@ -94,3 +94,4 @@ if (CapSense8 > 100) {
     }
 ````
 I also decided to experiment with how to play around with the touch points rather than just touching the nails. After trying guitar strings and copper wire, I was excited to finally put my unused conductive thread to use. 
+The next step will be to add the third component from Arduino.
