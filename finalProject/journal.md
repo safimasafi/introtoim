@@ -20,10 +20,7 @@ In order to have an instrument selection process, I decided to have three of the
 <img src = “  “>
 Here is my initial configuration with the first 3 nails from the left acting as instrument changing nails (pins 10-11), and the other as playing nails (pins 6-9). 
 
-And this some of the code that determines the instruments selected and the piano notes. I added a delay that creates an arpeggiator effect.
-
-The hardest task of the day was tuning and configuring the if statements that play the sounds as the capacitive sensing values were slightly varying from time to time.
-
+And this is some of the code that determines the instruments selected and the piano notes. I added a delay that creates an arpeggiator effect.
 ````
 //Change instrument
 //Piano
@@ -64,7 +61,8 @@ if (counter == 1) {
         delay(150);
   }
 ````
-
 And so on for the organ and drums.
+
+The hardest task of the day was tuning and configuring the if statements that play the sounds as the capacitive sensing values were slightly varying from time to time.
 
 **June 3**: 
