@@ -16,11 +16,13 @@ I stuck with using 7 nails, each connected to a 1m resistor that I had from my C
 In the end, I settled for 3 instruments piano, organ, and drums to add some percussive elements (even thought the piano is considered a percussive instrument!). 
 
 In order to have an instrument selection process, I decided to have three of the seven nails dedicated to instrument change and the remaining four for actual playing; the nail of the instrument selected would also play a sound so that would actually make it 5 nails for playing. 
+
 <img src = “  “>
 <img src = “  “>
+
 Here is my initial configuration with the first 3 nails from the left acting as instrument changing nails (pins 10-11), and the other as playing nails (pins 6-9). 
 
-And this is some of the code that determines the instruments selected and the piano notes. I added a delay that creates an arpeggiator effect.
+And this is some of the code that determines the instruments selected and the piano notes by a simple counter. I added a delay that creates an arpeggiator effect.
 ````
 //Change instrument
 //Piano
