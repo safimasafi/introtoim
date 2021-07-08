@@ -113,4 +113,16 @@ The next step will be to add the third component from Arduino.
 
 Here is an image of the final circuit. The next next will be to add the fourth Arduino component and work more on Processing.
 
+**June 6**: Thankfully, the Professor allowed the CapSense library to count as the fourth component for Arduino as I was running out of ideas on what else to include. Working on the remaining three components , I added some text, images, and some shape elements. I decided to have a simple canvas where the text would write out the description and instructions for the CONDUCT-O-PHONE (name of my project). 
+<img src = “   “>
 
+I then added some images that represented a piano, organ, and drums (borrowed clip art images) which displayed when an instrument was touched (eg.  if nail 7 (piano) is touched, an image of a piano will show up). 
+
+<img src = “   “>
+
+For the shapes component, I coded small ellipses that appear at random points in the canvas when you touch a nail to select/change an instrument in the colour of the corresponding LED colours (red for the piano, green for the organ, and blue for the drums). I set the transparency of the ellipses to 25% and changed the canvas background and text to more neutral colors, settling for dark.
+
+<img src = “   “>
+<img src = “   “>
+
+The next step will be to make the enclosure for the CONDUCT-O-PHONE.
