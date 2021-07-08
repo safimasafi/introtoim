@@ -65,7 +65,11 @@ if (counter == 1) {
 ````
 And so on for the organ and drums.
 
-The hardest task of the day was tuning and configuring the if statements that play the sounds as the capacitive sensing values were slightly varying from time to time. The next step will be to add more elements from Arduino to the circuit.
+The hardest task of the day was tuning and configuring the if statements that play the sounds as the capacitive sensing values were slightly varying from time to time. In some instances, the values would reach a max of 400, and in other, go over 1000.
+
+<img src = “  “> <img src = “  “>
+
+The next step will be to add more elements from Arduino to the circuit.
 
 **June 4**: I quickly realised that the readings from the digital ins were bouncing around and can change every time I connect the Arduino. This made me change the code setting the min & max threshold from above and finally settling for: 
 ````
