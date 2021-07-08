@@ -109,9 +109,8 @@ The next step will be to add the third component from Arduino.
        counter = 0;
    }
 ````
-Final circuit
-
 <img src = “  “>
 
+Here is an image of the final circuit. The next next will be to add the fourth Arduino component and work more on Processing.
 
 
