@@ -129,7 +129,7 @@ For the shapes component, I coded small ellipses that appear at random points in
 <img src = "https://user-images.githubusercontent.com/70910372/125002621-6f170e00-e066-11eb-9216-486b0a71bc25.mov" width="400/">
 <img src = "https://user-images.githubusercontent.com/70910372/125002645-7a6a3980-e066-11eb-8b05-12cd5ca79888.png" width="400/">
 
-The next step will be to make the enclosure for the CONDUCT-O-PHONE.
+The next step will be the fun part, making the enclosure for the CONDUCT-O-PHONE.
 
 **June 7**: For the enclosure, I first spray painted a box and screwed the nails. Four of the nails were put in a pattern at the lower part of the box for ease of threading around them. I then decided to have the ‘instrument selection’ part at the upper left part of the box, with the organ nail slightly apart from the other two nails as I would find myself sometimes touching other nails accidentally. 
 
