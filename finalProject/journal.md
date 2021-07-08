@@ -126,3 +126,13 @@ For the shapes component, I coded small ellipses that appear at random points in
 <img src = “   “>
 
 The next step will be to make the enclosure for the CONDUCT-O-PHONE.
+
+**June 7**: For the enclosure, I first spray painted a box and screwed the nails. Four of the nails were put in a pattern at the lower part of the box for ease of threading around them. I then decided to have the ‘instrument selection’ part at the upper left part of the box, with the organ nail slightly apart from the other two nails as I would find myself sometimes touching other nails accidentally. 
+
+<img src = “   “>
+
+I put the LED in the space in between and added an extra nail to fit the thread holder in; it fit just in and worked well to roll the thread down. Finally, the push button was placed on the left side of the box as it felt natural to have it there. 
+
+<img src = “   “>
+
+I kept the backside of the box have open as I wanted to hide the breadboard then but that didn’t work out too well as I had to make sure none of the wires were touching each other so as not to trigger a short circuit. 
