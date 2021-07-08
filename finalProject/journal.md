@@ -65,4 +65,32 @@ And so on for the organ and drums.
 
 The hardest task of the day was tuning and configuring the if statements that play the sounds as the capacitive sensing values were slightly varying from time to time. The next step will be to add more elements from Arduino to the circuit.
 
-**June 3**: 
+**June 4**: I quickly realised that the readings from the digital ins were bouncing around and can change every time I connect the Arduino. This made me change the code setting the min & max threshold from above and finally settling for: 
+````
+//Change instrument
+//piano
+if(PRInt[4] > 100 && PRInt[4] < 1500) {
+      counter = 1;
+      }
+````
+I repeated this for all the instruments to be safe. 
+
+I decided to use the RGB LED for the digital out component in which when an instrument lights up, a different colour would light up. It was perfect that I had 3 instrument that would work with the colors so I went with red for the piano, green for the organ, and blue for the drums.  I made the LED light up when sensing values for the corresponding nail went over 100:
+````
+if (CapSense8 > 100) {
+      digitalWrite(redPin, HIGH);
+      digitalWrite(greenPin, LOW);
+      digitalWrite(bluePin, LOW);
+    }
+    if (CapSense9 > 100) {
+      digitalWrite(redPin, LOW);
+      digitalWrite(greenPin, HIGH);
+      digitalWrite(bluePin, LOW);
+    }
+    if (CapSense10 > 100) {
+      digitalWrite(redPin, LOW);
+      digitalWrite(greenPin, LOW);
+      digitalWrite(bluePin, HIGH);
+    }
+````
+I also decided to experiment with how to play around with the touch points rather than just touching the nails. After trying guitar strings and copper wire, I was excited to finally put my unused conductive thread to use. 
