@@ -17,8 +17,7 @@ In the end, I settled for 3 instruments piano, organ, and drums to add some perc
 
 In order to have an instrument selection process, I decided to have three of the seven nails dedicated to instrument change and the remaining four for actual playing; the nail of the instrument selected would also play a sound so that would actually make it 5 nails for playing. 
 
-<img src = “  “>
-<img src = “  “>
+<img src = "https://user-images.githubusercontent.com/70910372/125002113-48a4a300-e065-11eb-93b3-0a1692146da2.png" width="500/"><img src = "https://user-images.githubusercontent.com/70910372/125002120-4cd0c080-e065-11eb-8e9d-ff190c873be3.png" width="500/">
 
 Here is my initial configuration with the first 3 nails from the left acting as instrument changing nails (pins 10-11), and the other as playing nails (pins 6-9). 
 
@@ -67,7 +66,7 @@ And so on for the organ and drums.
 
 The hardest task of the day was tuning and configuring the if statements that play the sounds as the capacitive sensing values were slightly varying from time to time. In some instances, the values would reach a max of 400, and in other, go over 1000.
 
-<img src = “  “> <img src = “  “>
+<img src = "https://user-images.githubusercontent.com/70910372/125001876-b8665e00-e064-11eb-93eb-de45b6ba1a8a.png"> <img src = "https://user-images.githubusercontent.com/70910372/125001889-be5c3f00-e064-11eb-8d75-086aba82c4da.png">
 
 The next step will be to add more elements from Arduino to the circuit.
 
@@ -100,7 +99,7 @@ if (CapSense8 > 100) {
       digitalWrite(bluePin, HIGH);
     }
 ````
-<img src = “  “>
+<img src = "https://user-images.githubusercontent.com/70910372/125002404-e39d7d00-e065-11eb-9bd3-0ffee2608a2b.MOV" width="400/">
 
 I also decided to experiment with how to play around with the touch points rather than just touching the nails. After trying guitar strings and copper wire, I was excited to finally put my unused conductive thread to use. YOUTUBE LINK!!!!!!!!
 
@@ -113,30 +112,31 @@ The next step will be to add the third component from Arduino.
        counter = 0;
    }
 ````
-<img src = “  “>
+<img src = "https://user-images.githubusercontent.com/70910372/125002524-36773480-e066-11eb-9649-1c2af139c313.png">
 
 Here is an image of the final circuit. The next next will be to add the fourth Arduino component and work more on Processing.
 
 **June 6**: Thankfully, the Professor allowed the CapSense library to count as the fourth component for Arduino as I was running out of ideas on what else to include. Working on the remaining three components , I added some text, images, and some shape elements. I decided to have a simple canvas where the text would write out the description and instructions for the CONDUCT-O-PHONE (name of my project). 
-<img src = “   “>
+
+<img src = "https://user-images.githubusercontent.com/70910372/125002574-54dd3000-e066-11eb-9dab-a64d6a132ecf.png" width="400/">
 
 I then added some images that represented a piano, organ, and drums (borrowed clip art images) which displayed when an instrument was touched (eg.  if nail 7 (piano) is touched, an image of a piano will show up). 
 
-<img src = “   “>
+<img src = "https://user-images.githubusercontent.com/70910372/125002590-6292b580-e066-11eb-941e-b1fbc7174d3a.mov" width="400/">
 
 For the shapes component, I coded small ellipses that appear at random points in the canvas when you touch a nail to select/change an instrument in the colour of the corresponding LED colours (red for the piano, green for the organ, and blue for the drums). I set the transparency of the ellipses to 25% and changed the canvas background and text to more neutral colors, settling for dark.
 
-<img src = “   “>
-<img src = “   “>
+<img src = "https://user-images.githubusercontent.com/70910372/125002621-6f170e00-e066-11eb-9216-486b0a71bc25.mov" width="400/">
+<img src = "https://user-images.githubusercontent.com/70910372/125002645-7a6a3980-e066-11eb-8b05-12cd5ca79888.png" width="400/">
 
 The next step will be to make the enclosure for the CONDUCT-O-PHONE.
 
 **June 7**: For the enclosure, I first spray painted a box and screwed the nails. Four of the nails were put in a pattern at the lower part of the box for ease of threading around them. I then decided to have the ‘instrument selection’ part at the upper left part of the box, with the organ nail slightly apart from the other two nails as I would find myself sometimes touching other nails accidentally. 
 
-<img src = “   “>
+<img src = "https://user-images.githubusercontent.com/70910372/125002852-e9479280-e066-11eb-841c-eaacef102c58.png" width="500/">
 
 I put the LED in the space in between and added an extra nail to fit the thread holder in; it fit just in and worked well to roll the thread down. Finally, the push button was placed on the left side of the box as it felt natural to have it there. 
 
-<img src = “   “>
+<img src = "https://user-images.githubusercontent.com/70910372/125002857-eba9ec80-e066-11eb-842f-875af7a85ea5.png" width="500/">
 
 I kept the backside of the box have open as I wanted to hide the breadboard then but that didn’t work out too well as I had to make sure none of the wires were touching each other so as not to trigger a short circuit. 
