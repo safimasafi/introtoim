@@ -6,9 +6,9 @@ CONDUCT-O-PHONE
 
 08/07/2021
 
-**July 30**: I wanted to come up with a project idea that would be somewhat music related and can be played as an instrument. Because I didn’t work with the Minim library for my midterm, I decided to implement it into this project. The idea is to have some touch points that would make sounds when touched (which sounds are unclear at this point).
+**July 30**: I wanted to come up with a project idea that would be somewhat music related and can be played as an instrument. Because I didn’t work with the Minim library for my midterm, I decided to implement it into this project. The idea is to have some touch points that would make sounds when touched (which sounds are unclear at this point). The next step would be to pick with elements I will work with from Arduino and Processing.
 
-**June 2**: I started thinking which of the 4 items from both Arduino and Processing will I use in the project, and what the communication should look like between the two. In Arduino, i’ll be using the digital input that will read the touch sensors and digital output for LED’s that will be somehow responsive to the sound. Since I’ll be working with sound, that component is determined to be used, and I also picked text that will show instructions for playing the ‘instrument’, images what will show some information of the sounds. The communication between Arduino and Processing will mainly be processing reading the digital input and playing sound.
+**June 2**: I started thinking which of the 4 items from both Arduino and Processing will I use in the project, and what the communication should look like between the two. In Arduino, i’ll be using the digital input that will read the touch sensors and digital output for LED’s that will be somehow responsive to the sound. Since I’ll be working with sound, that component is determined to be used, and I also picked text that will show instructions for playing the ‘instrument’, images what will show some information of the sounds. The communication between Arduino and Processing will mainly be processing reading the digital input and playing sound. The next step would be to make the prelim circuit.
 
 **June 3**: I checked out the [Capacative Sense library](https://www.arduino.cc/reference/en/libraries/capacitivesensor/) for Arduino using metallic objects. I then used nails that I envisioned to be used as the touch points in the final project enclosure for easy of usage. Upon writing some initial code, I realized the library was great as it allowed multiple notes to be played at the same time instead with Minim instead of a single note if I used buttons. 
 
@@ -63,6 +63,6 @@ if (counter == 1) {
 ````
 And so on for the organ and drums.
 
-The hardest task of the day was tuning and configuring the if statements that play the sounds as the capacitive sensing values were slightly varying from time to time.
+The hardest task of the day was tuning and configuring the if statements that play the sounds as the capacitive sensing values were slightly varying from time to time. The next step will be to add more elements from Arduino to the circuit.
 
 **June 3**: 
