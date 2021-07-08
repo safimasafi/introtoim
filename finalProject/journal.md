@@ -23,6 +23,7 @@ Here is my initial configuration with the first 3 nails from the left acting as 
 And this some of the code that determines the instruments selected and the piano notes. I added a delay that creates an arpeggiator effect.
 
 ````
+//Change instrument
 //Piano
    if(PRInt[4] > 50 && PRInt[4] < 400) {
       counter = 1; }
