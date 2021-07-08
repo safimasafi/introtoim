@@ -76,6 +76,7 @@ if(PRInt[4] > 100 && PRInt[4] < 1500) {
       }
 ````
 I repeated this for all the instruments to be safe. 
+Another realisation was that the delay in Arduino was commented out and that sped up the responsiveness of the sounds. 
 
 I decided to use the RGB LED for the digital out component in which when an instrument lights up, a different colour would light up. It was perfect that I had 3 instrument that would work with the colors so I went with red for the piano, green for the organ, and blue for the drums.  I made the LED light up when sensing values for the corresponding nail went over 100:
 ````
@@ -95,5 +96,9 @@ if (CapSense8 > 100) {
       digitalWrite(bluePin, HIGH);
     }
 ````
-I also decided to experiment with how to play around with the touch points rather than just touching the nails. After trying guitar strings and copper wire, I was excited to finally put my unused conductive thread to use. 
+<img src = “  “>
+
+I also decided to experiment with how to play around with the touch points rather than just touching the nails. After trying guitar strings and copper wire, I was excited to finally put my unused conductive thread to use. YOUTUBE LINK!!!!!!!!
 The next step will be to add the third component from Arduino.
+
+
