@@ -140,3 +140,7 @@ I put the LED in the space in between and added an extra nail to fit the thread 
 <img src = "https://user-images.githubusercontent.com/70910372/125002857-eba9ec80-e066-11eb-842f-875af7a85ea5.png" width="500/">
 
 I kept the backside of the box have open as I wanted to hide the breadboard then but that didn’t work out too well as I had to make sure none of the wires were touching each other so as not to trigger a short circuit. 
+
+<img src = "https://user-images.githubusercontent.com/70910372/125004066-beab0900-e069-11eb-83a9-f63b114f7381.mov" width="500/">
+
+
