@@ -15,5 +15,10 @@ For Arduino: the analog input was coming from the push button that allowed the s
  
 <img src = "https://user-images.githubusercontent.com/70910372/125005737-8a394c00-e06d-11eb-8cf5-85605e4deec4.png" width="500/">      <img src = "https://user-images.githubusercontent.com/70910372/125005747-91605a00-e06d-11eb-8fb4-fa6aea298097.png" width="395/"> <img src = "https://user-images.githubusercontent.com/70910372/125005759-991ffe80-e06d-11eb-8a4c-fa3ca2f05798.mov" width="500/"> 
 
+Schematic 
+<img src = "   ">
+
+Here is a [YouTube link to the video](https://www.youtube.com/watch?v=lrsJTz7DlgA). 
+
 
 
