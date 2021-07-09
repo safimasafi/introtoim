@@ -20,5 +20,7 @@ Schematic
 
 Here is a [YouTube link to the video](https://www.youtube.com/watch?v=lrsJTz7DlgA). 
 
+Some of the problems I ran into were the readings jumping around when reading the capacitive sensing values and while I wouldn’t really call it ‘solving’ the problem, I decided to just work around and widen the thresholds from the minimum/maximum values so I wouldn’t have to recalibrate every time reconnect the Arduino. Because of that, I wasn’t always sure if the problems I had weren’t actually the sensing values but the the Serial readings sent to Processing or the circuit. I also had slight issue sending values from Arduino to Processing, particularly when trying to add the switch and ended up just calling the integer representation for the switch ‘CapSense11’, and placed it at the bottom the Serial.print list. Another problem that frustrated me after doing the enclosure was making sure that none of the wires in the circuit were touching, but also that all the wires were properly connected. When attempting to record a video for documentation, the jumper wires connecting the resistors to the Arduino started acting up and a small nudge would stop the project from working and rechecking the connections or reloading the canvas. I had to reconnect everything and straighten the wires which seemed to do the trick but at any rate, working with longer wires and bigger breadboard would’ve been a better idea. 
+
 
 
